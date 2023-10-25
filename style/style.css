@@ -1,0 +1,138 @@
+body {
+    /* background-image: url(../assets/wallpaperflare.com_wallpaper.jpg); */
+    /* width: 100%; */
+    background-color: black;
+}
+
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-Purple {
+    background-color: #3C01BA;
+}
+
+.landingPageTxt {
+    background-color: powderblue;
+}
+
+.carousel-nextpage {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Start the Styling for the Interest Page */
+/* Styling for Headers */
+h1{
+    color: white;
+    text-align: left;
+}
+
+.interest-title {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+}
+
+.image-position {
+    display: flex;
+    justify-content: center;
+}
+
+.interest-row {
+    padding: 15px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.interest-text {
+    display: flex;
+    justify-content: center;
+}
+
+.blueBG {
+    background-color: #9FBFFC;
+}
+
+.pinkBG{
+    background-color: #E5ADD9;
+}
+
+.orangeBG{
+    background-color: #FABE78;
+}
+
+.power-image-align {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.power-image-padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.power-text {
+    color: white;
+    margin-left: 100px;
+    margin-top: 70px;
+    padding: 20px;
+    background-color: #4A53A4;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-dropdown {
+    display: flex;
+    justify-content: end;
+    margin-right: 100px;
+}
+
+.white {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbarTitle {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.navbarTitle:hover,
+.dropdown-toggle:hover {
+    color: lightgray;
+}
+
+.descriptionTxt{
+    font-size: 18px;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    width: 22%;
+    height: auto;
+    background-color: #3C01BA;
+    /* align-items: center; * Y-axis align * */
+    /* justify-content: center; * X-axis align * */
+}
+
+.quote {
+    text-align: center;
+    background-color: #4A53A4;
+    margin-top: 35px;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.pages-button {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}

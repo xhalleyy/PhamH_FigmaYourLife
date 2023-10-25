@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Satoru Gojo's Life</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+
+  <body>
+    <!-- Nav Bar -->
+    <!-- Still Need to Align DropDown To the Right!!! -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <!-- py is padding top and bottom (y-axes) -->
+      <div class="container-fluid navbar-Purple py-2">
+        <!-- ms is margin start -->
+        <a href="./index.html">
+          <img
+            src="./assets/icon.png"
+            alt="This is the Icon to refer back to Landing/Home Page"
+            width="50"
+          />
+        </a>
+        <a class="navbar-brand white navbarTitle ms-3" href="./index.html">
+          SATORU GOJO'S LIFE</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse navbar-dropdown"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                EXPLORE
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./pages/interestpage.html"
+                    >Interests</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./pages/accomplishments.html"
+                    >Accomplishments</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <!-- Carousel -->
+      <div class="row mt-5">
+        <div class="col-1"></div>
+        <div class="col-8">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img
+                  src="./assets/gojocarousel.jpg"
+                  class="w-100"
+                  height="550px"
+                  alt="The Gojo Clan has a technique called Hollow Purple. This image is of Satoru Gojo performing it."
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img
+                  src="./assets/gojocarousel2.jpg"
+                  class="w-100"
+                  height="550px"
+                  alt="A picture of Satoru Gojo tired after using his domain expansion during the Shibuya Incident Arc"
+                />
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img
+                  src="./assets/gojocarousel3.jpg"
+                  class="w-100"
+                  height="550px"
+                  alt="This is Satoru Gojo during the movie Jujutsu Kaisen 0, when he fights Miguel."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="descriptionTxt white">
+            <h2>Satoru Gojo : The Strongest</h2>
+            <hr />
+            <p>
+              Satoru Gojo is one of the many major charactor in the manga/
+              anime, Jujutsu Kaisen. Satoru strives to protect the world from
+              the Cursed Spirits that plague it. However, Gojo believes the
+              structure of Jujutsu Sorcerer society is flawed, and as such hopes
+              to change it for the better. This explains why he's a teacher at
+              Jujutsu Kaisen High School and directly mentors first year
+              students, such as Yuuji Itadori and Megumi Fushiguro.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col quote white">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repellat culpa quas itaque voluptas excepturi, debitis nobis aliquam officiis deserunt natus cupiditate sit incidunt ipsum provident omnis error iure qui. Penatibus et magnis dis parturient montes nascetur ridiculus. A diam maecenas sed enim ut sem. Nunc congue nisi vitae suscipit. Parturient montes nascetur ridiculus mus mauris vitae. Mauris sit amet massa vitae tortor condimentum lacinia quis vel. Feugiat vivamus at augue eget arcu. Gravida in fermentum et sollicitudin ac orci. Penatibus et magnis dis parturient montes nascetur ridiculus. A diam maecenas sed enim ut sem. Nunc congue nisi vitae suscipit. Parturient montes nascetur ridiculus mus mauris vitae. Mauris sit amet massa vitae tortor condimentum lacinia quis vel. Feugiat vivamus at augue eget arcu. Gravida in fermentum et sollicitudin ac orci.</p>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+    <!-- <div class="col landingPageTxt">
+  <h1>Satoru Gojo : The Strongest</h1>
+          <p>Satoru Gojo is one of the many major charactor in the manga/ anime, Jujutsu Kaisen. Satoru strives to protect the world from the Cursed Spirits that plague it. However, Gojo believes the structure of Jujutsu Sorcerer society is flawed, and as such hopes to change it for the better. This explains why he's a teacher at Jujutsu Kaisen High School and directly mentors first year students, such as Yuuji Itadori and Megumi Fushiguro.</p>
+      </div>
+
+  <div class="row">
+        <div class="col-3">
+          <a class="btn btn-outline-light" href="./pages/interestpage.html" role="button">Learn More</a></div>
+      </div>
+
+
+  </div> -->
+
+    <!-- Pagination -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col pages-button">
+          <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link">Previous</a>
+              </li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="index.html">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="./pages/interestpage.html">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="./pages/accomplishments.html">3</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="./pages/interestpage.html">Next</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-2"></div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
