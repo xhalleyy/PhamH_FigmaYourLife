@@ -31,7 +31,7 @@ h1{
     text-align: left;
 }
 
-.interest-title {
+.interest-box {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 25px;
@@ -50,9 +50,18 @@ h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.interest-title-align {
+    display: flex;
+    justify-content: left;
+    padding-left: 100px;
+    margin-bottom: 10px;
+}
+
 .interest-text {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .blueBG {
@@ -78,10 +87,15 @@ h1{
     padding-bottom: 20px;
 }
 
+.power-text-align {
+    margin-top: 40px;
+    text-align: center;
+}
+
 .power-text {
     color: white;
     margin-left: 100px;
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 20px;
     background-color: #4A53A4;
     font-size: 25px;
